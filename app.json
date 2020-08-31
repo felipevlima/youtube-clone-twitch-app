@@ -17,10 +17,20 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "twichclonefelipe.felipelima.com"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "sdkVersion": "38.0.0",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "android": {
+      "package": "twichclonefelipe.felipelima.com"
     }
   }
 }
